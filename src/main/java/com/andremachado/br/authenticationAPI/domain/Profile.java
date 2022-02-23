@@ -5,23 +5,21 @@ import javax.persistence.*;
 @Getter
 @Setter
 @EqualsAndHashCode(onlyExplicitlyIncluded = true)
-@Table(name = "User")
+@Table(name = "Profile")
 @Entity
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class User {
+public class Profile {
 
 
     @Id
-    @Column(name = "USER_ID")
+    @Column(name = "PROF_ID")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @EqualsAndHashCode.Include
     private Long id;
 
-    @Column(name = "USER_LOGIN")
-    private String login;
+    @Column(name = "PROF_Description")
+    private String description;
 
-    @Column(name = "USER_PASSWORD")
-    private String password;
 }
