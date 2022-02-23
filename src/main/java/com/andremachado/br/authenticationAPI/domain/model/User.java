@@ -1,4 +1,4 @@
-package com.andremachado.br.authenticationAPI.domain;
+package com.andremachado.br.authenticationAPI.domain.model;
 import lombok.*;
 import javax.persistence.*;
 
@@ -24,4 +24,8 @@ public class User {
 
     @Column(name = "USER_PASSWORD")
     private String password;
+
+    @ManyToOne
+    @JoinColumn(name = "USER_PROFILE", referencedColumnName = "PROF_ID")
+    private Profile profile;
 }

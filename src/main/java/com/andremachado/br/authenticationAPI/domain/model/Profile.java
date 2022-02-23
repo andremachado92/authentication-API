@@ -1,5 +1,7 @@
-package com.andremachado.br.authenticationAPI.domain;
+package com.andremachado.br.authenticationAPI.domain.model;
+
 import lombok.*;
+
 import javax.persistence.*;
 
 @Getter
@@ -19,7 +21,8 @@ public class Profile {
     @EqualsAndHashCode.Include
     private Long id;
 
-    @Column(name = "PROF_Description")
+    @Column(name = "PROF_DESCRIPTION")
     private String description;
+
 
 }
