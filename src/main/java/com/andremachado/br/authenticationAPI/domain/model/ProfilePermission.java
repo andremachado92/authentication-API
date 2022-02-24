@@ -21,7 +21,7 @@ public class ProfilePermission {
     @EqualsAndHashCode.Include
     private Long id;
 
-    @ManyToOne
+    @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "PROF_PERM_PROFILE", referencedColumnName = "PROF_ID")
     private Profile profile;
 

@@ -29,7 +29,4 @@ public class User {
     @ManyToOne
     @JoinColumn(name = "USER_PROFILE", referencedColumnName = "PROF_ID")
     private Profile profile;
-
-    @OneToMany(mappedBy = "profile")
-    private List<ProfilePermission> profilePermission;
 }
