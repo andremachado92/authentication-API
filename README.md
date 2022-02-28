@@ -20,21 +20,6 @@ api.client-secret=$2a$10$xYqfk77eiSYtHPhaHUm3Y.w8YShRvLIIjR.3xaRqS5MBzni1n3N2e
 
 api.client-id=api
 
-api.swagger-secret=R0ut3V2
-
-api.signing-key=api-v2
-
-api.scope-read=read
-
-api.scope-write=write
-
-api.scope-trust=trust
-
-api.grant-type-password=password
-
-api.grant-type-refresh-token=refresh_token
-
-api.grant-type-authorization-code=authorization_code
 
 ## 🛠️ Construído com
 
