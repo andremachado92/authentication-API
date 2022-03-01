@@ -11,8 +11,8 @@ JDK 11+, IDE de sua preferência.
 Realize o clone do projeto, abra o projeto em uma IDE de sua preferência, realize
 o download das dependências. Após as configrações iniciais, inicie o projeto, o Spring Boot criará as tabelas em um 
 banco de dados em memória (H2) e salvará no banco o usuario: usuario@email.com senha: admin123, este será o usuário
-que você se autenticará pelo swagger, caso você queira configurar outro cliente web use as credenciais abaixo para o mes
-mo usuário e senha acima citado:
+que você se autenticará pelo swagger, caso você queira configurar outro cliente web use as credenciais abaixo para o
+mesmo usuário e senha acima citado:
 
 secret -> R0ut3V2
 
